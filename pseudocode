@@ -1,0 +1,5 @@
+When the player enters the value
+Initiate a score check using the results from the player and computer data to determine the round winner.
+Repeat the round five times to determine the winner of the match.
+If the winner has more points than the loser at the end of the match, a message will appear indicating the winner of the match.
+If there is a tie, it will show "this match ended in a tie".
