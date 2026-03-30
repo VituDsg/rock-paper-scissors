@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fefefe;
+}
+
+#content {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+#btnRock, #btnPaper, #btnScissors {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+#btnRock:hover, #btnPaper:hover, #btnScissors:hover {
+    width: 110px;
+    height: 55px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
